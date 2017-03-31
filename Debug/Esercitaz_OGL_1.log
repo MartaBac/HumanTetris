@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (.\Debug\) contains files shared from another project (Gioco.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Main.cpp
+  Esercitaz_OGL_1.vcxproj -> C:\Users\marta\Documents\Visual Studio 2015\Projects\HumanTetris\.\Debug\Esercitaz_OGL_1.exe
+  Esercitaz_OGL_1.vcxproj -> .\Debug\Esercitaz_OGL_1.pdb (Full PDB)
