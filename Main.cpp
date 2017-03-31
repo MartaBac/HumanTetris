@@ -1,6 +1,7 @@
 //	Cosi` vede la rotella del mouse ...
 //	needed to operate the mouse wheel..
 
+///snlasbjf
 #if(_WIN32_WINNT < 0x400)
 #define _WIN32_WINNT	0x0400
 #endif
@@ -163,7 +164,7 @@ bool RegistraClasse(HINSTANCE hInstance)
     wc.hInstance = hInstance;
     wc.hIcon = LoadIcon(hInstance, MAKEINTRESOURCE(IDI_MYICON));
     wc.hCursor = LoadCursor(NULL, IDC_ARROW);
-    wc.hbrBackground = (HBRUSH)(COLOR_3DSHADOW+1);
+    wc.hbrBackground = (HBRUSH)GetStockObject(WHITE_BRUSH);
     wc.lpszMenuName = "MAIN";
     wc.lpszClassName = "MainWindow";
     wc.hIconSm = LoadIcon(hInstance, MAKEINTRESOURCE(IDI_MYICON));
