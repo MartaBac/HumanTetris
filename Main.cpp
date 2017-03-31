@@ -1,7 +1,6 @@
 //	Cosi` vede la rotella del mouse ...
 //	needed to operate the mouse wheel..
 
-///snlasbjf
 #if(_WIN32_WINNT < 0x400)
 #define _WIN32_WINNT	0x0400
 #endif
